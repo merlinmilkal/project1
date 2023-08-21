@@ -1,4 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
+
+@NgModule({
+  imports: [
+    // other imports ...
+    ReactiveFormsModule
+  ],
+})
+export class AppModule { }
 
 @Component({
   selector: 'app-root',
